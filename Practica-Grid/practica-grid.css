@@ -1,0 +1,63 @@
+* {
+  font-family: "Fredoka One", cursive;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+body {
+  background: radial-gradient(circle, #fff, #bbb);
+}
+
+.contenedor {
+  display: inline-block;
+  margin-left: 40%;
+  padding-top: 10px;
+}
+
+.mensaje {
+  border: 4px solid #54c;
+  background: #1b9;
+  color: #43e;
+}
+
+.grid-container {
+  display: grid;
+  padding: 10px;
+  margin: 10px;
+  border: 4px solid #000;
+  background: #bbb;
+  border-radius: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-auto-rows: 100px;
+  grid-auto-flow: dense;
+  grid-gap: 10px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+img:first-child {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+}
+
+img:nth-child(3) {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+img:nth-child(9) {
+  grid-row: span 3;
+}
+
+img:nth-child(15) {
+  grid-column: 1 / 3;
+  grid-row: 3 / 5;
+}
+
+img:nth-child(16) {
+  grid-row: span 2;
+}

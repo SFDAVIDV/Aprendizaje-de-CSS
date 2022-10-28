@@ -1,0 +1,18 @@
+* {
+  font-family: "Fredoka One", cursive;
+  font-weight: 100;
+  font-size: 20px;
+}
+.cont {
+  width: 50%;
+}
+.cont::selection {
+  color: white;
+  background-color: black;
+}
+.cont img {
+  float: right;
+  width: 400px;
+  margin-right: 15px;
+  object-fit: cover;
+}

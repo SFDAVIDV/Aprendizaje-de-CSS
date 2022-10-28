@@ -1,0 +1,12 @@
+* {
+  font-family: "Fredoka One", cursive;
+  font-size: 40px;
+}
+body {
+  padding-top: 50px;
+}
+.caja-fixed {
+  color: red;
+  position: fixed;
+  margin: -50px;
+}

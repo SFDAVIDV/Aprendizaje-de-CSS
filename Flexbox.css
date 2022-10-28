@@ -1,0 +1,30 @@
+* {
+  font-family: "Fredoka One", cursive;
+  font-weight: 100;
+}
+*::selection {
+  color: #fff;
+  background: #000;
+}
+
+.flex-container {
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  background: #248;
+  color: #fff;
+  margin: 5px;
+  min-width: 175px;
+  height: 100px;
+  text-align: center;
+  flex-grow: 1;
+}
+.orange {
+  background: orange;
+}
+.green {
+  background: green;
+}

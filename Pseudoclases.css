@@ -1,0 +1,31 @@
+* {
+  font-family: "Fredoka One", cursive;
+  font-weight: 100;
+  font-size: 20px;
+}
+*::selection {
+  color: white;
+  background: black;
+}
+
+.caja {
+  width: 100px;
+  height: 50px;
+  background: rgb(250, 50, 200);
+  margin: 25px;
+  color: white;
+  cursor: pointer;
+}
+.caja1 {
+  transition: background 1.5s;
+  color: #297076;
+}
+.caja:active {
+  background-color: steelblue;
+}
+.caja1:focus {
+  background-color: lawngreen;
+}
+.caja1::placeholder {
+  color: rgb(100, 50, 250);
+}

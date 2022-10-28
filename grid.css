@@ -1,0 +1,73 @@
+* {
+  font-family: "Fredoka One", cursive;
+  font-weight: 100;
+}
+
+body {
+  background: radial-gradient(circle, #fff, #bbb);
+  padding: 20px;
+}
+
+.grid-container {
+  display: grid;
+  border: 2px solid #000;
+  background: #999;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px 200px 200px;
+  align-items: center;
+  justify-items: center;
+  height: 600px;
+}
+
+.grid-item {
+  border: 2px solid #000;
+  font-size: 30px;
+  padding: 50px;
+}
+
+.grid-item:first-child {
+  background: #b58;
+  align-self: start;
+  justify-self: start;
+}
+
+.grid-item:nth-child(2) {
+  background: #2c5;
+}
+
+.grid-item:nth-child(3) {
+  background: #27e;
+  align-self: start;
+  justify-self: end;
+}
+
+.grid-item:nth-child(4) {
+  background: #aa3322;
+  justify-self: end;
+}
+
+.grid-item:nth-child(5) {
+  background: #2f5;
+}
+
+.grid-item:nth-child(6) {
+  background: #c28;
+  justify-self: start;
+}
+
+.grid-item:nth-child(7) {
+  background: #43e;
+  align-self: end;
+  justify-self: start;
+}
+
+.grid-item:nth-child(8) {
+  background: #03f5ea;
+}
+
+.grid-item:nth-child(9) {
+  background: #c53;
+  justify-self: end;
+  align-self: end;
+}

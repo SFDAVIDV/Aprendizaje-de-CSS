@@ -1,0 +1,21 @@
+* {
+  font-family: "Fredoka One", cursive;
+}
+h1 {
+  background-color: lightblue;
+  display: inline-block;
+  line-height: 1;
+  color: red;
+  padding: 1px 10px;
+  border-radius: 10px;
+  border: 10px solid gold;
+  box-shadow: 10px 20px 15px 0 pink;
+  text-shadow: 2px 2px 10px gold;
+  transform: rotate(-10deg);
+}
+h1 p:hover {
+  color: green;
+}
+.Form__input--1 {
+  color: red;
+}
